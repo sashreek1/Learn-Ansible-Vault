@@ -11,6 +11,6 @@ $ ansible-vault create filename.yaml
 
 # Uses of ansible vault
 
-Ansible Vault is a feature of Ansible that allows you to keep sensitive data, such as passwords or keys in encrypted files, rather than as plaintext in playbooks or roles. These vault files can then be distributed or placed in source control.  
+Ansible Vault is a feature of Ansible that allows you to keep sensitive data, such as passwords or keys in encrypted files, rather than as plaintext in playbooks or roles. 
   
 Ansible Vault can encrypt any structured data file used by Ansible. Ansible Vault can also encrypt arbitrary files, even binary files. If a vault-encrypted file is given as the src argument to the copy, template, unarchive, script, or assemble modules, the file will be placed at the destination on the target host decrypted (assuming a valid vault password is supplied when running the play).  
